@@ -3,6 +3,8 @@ import Header from "./Header";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Login from "./Login";
 import Chat from "./Chat";
+import Tutorial from "./Tutorial";
+
 function App() {
   
 
@@ -35,6 +37,10 @@ function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route path="/tutorial">
+            <Header />
+            <Tutorial/>
           </Route>
           <Route path="/">
             <Header />

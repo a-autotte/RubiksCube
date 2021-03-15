@@ -135,6 +135,7 @@ const Chat = () => {
     <Page>
       <Container>
         {messages.map((message, index) => {
+        
           if (message.id === yourID) {
             return (
               <MyRow key={index}>
