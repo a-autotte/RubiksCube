@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.header__nav, .header__authentication {
+    padding: 20px;
+    background-color: red;
+}
+
+.header__nav > a {
+    padding: 20px;
+}
