@@ -2,8 +2,10 @@ import './App.css';
 import Header from "./Header";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Login from "./Login";
-
+import Chat from "./Chat";
 function App() {
+  
+
   return (
     <Router>
       <div className="App">
@@ -14,6 +16,7 @@ function App() {
           </Route>
           <Route path="/chat">
             <Header />
+            <Chat />
           </Route>
           <Route path="/tournament">
             <Header />
