@@ -1,25 +1,12 @@
-
-.header {
+.sidebar {
     background-color: #060b26;
-    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 }
 
-.header__nav {
-    margin-left: 4rem;
-    
-}
-
-.header__nav > a {
-    background-color: red;
-    border: 1px solid black;
-    padding: 8px 0px 8px 8px;
-    margin-left: 4px;
-}
-
-/*.sidebar-bars {
+.sidebar-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
@@ -81,5 +68,5 @@
 
 span {
     margin-left: 16px;
-}*/
+}
 

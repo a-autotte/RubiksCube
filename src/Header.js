@@ -7,9 +7,6 @@ function Header() {
     return (
         <div className="header">
             <div className="header__nav">
-                <Link to="/tutorial">
-                    Tutorial
-                </Link>
                  <Link to="/game">
                      Game
                  </Link> 
