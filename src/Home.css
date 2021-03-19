@@ -1,6 +1,8 @@
 .home {
     padding: 50px;
+    border: 1px solid black;
 }
+
 
 h1 {
     text-align: center;
