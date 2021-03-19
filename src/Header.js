@@ -1,38 +1,57 @@
 import React from 'react'
 import './Header.css';
 import {Link} from 'react-router-dom';
+import Sidebar from './Sidebar';
 
 
 function Header() {
     return (
         <div className="header">
+            <Sidebar />
             <div className="header__nav">
-                 <Link to="/game">
-                     Game
-                 </Link> 
-                <Link to="/chat">
-                    Chat 
-                </Link>
-                <Link to="/tournament">
-                    Tournament
-                </Link>
-                <Link to="/group">
-                    Group
-                </Link>
-                <Link to="/leaderboard">
-                    Leaderboard
-                </Link>
-                <Link to="/forum">
-                    Forums
-                </Link>
+                <div className="header__nav-item">
+                    <Link to="/game">
+                        Game
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/chat">
+                        Chat
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/tournament">
+                        Tournament
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/group">
+                        Group
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/leaderboard">
+                        Leaderboard
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/leaderboard">
+                        Forums
+                    </Link> 
+                </div>
             </div>
             <div className="header__authentication">
-                <Link to="/register">
-                    Register
-                </Link>
-                <Link to="/login">
-                    Login
-                </Link>
+                <div className="header__nav-item">
+                    <Link to="/register">
+                        Register
+                    </Link> 
+                </div>
+                <div className="header__nav-item">
+                    <Link to="/login">
+                        Login
+                    </Link> 
+                </div>
+            
                
             </div>
         </div>    

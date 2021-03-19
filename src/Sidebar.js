@@ -25,57 +25,53 @@ function Sidebar() {
             </div>
             <nav className={sidebar ? 'sidebar-nav-menu active' : 'sidebar-nav-menu'}>
                 <ul className='sidebar-menu-items' onClick={showSidebar}>
-                <li className="sidebar-navbar-toggle">
-                    <Link to="#" className='sidebar-bars'>
-                        <AiIcons.AiOutlineClose/>
-                    </Link>
-                </li>
+                
                 <li className="sidebar-nav-text">
                     <Link to="/home">
                         <AiIcons.AiFillHome/> 
-                        Home
+                        <span> Home </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/tutorial">
                         <FaIcons.FaBook />
-                        Tutorial 
+                        <span> Tutorial </span> 
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/game">
                         <FaIcons.FaGamepad/>
-                        Game
+                        <span> Game </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/chat">
                         <BsIcons.BsChatSquareDots/>
-                        Chat
+                        <span> Chat </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/tournament">
                         <RiIcons.RiSwordFill/>
-                        Tournament
+                        <span> Tournament </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/group">
                         <GrIcons.GrGroup/>
-                        Group
+                       <span> Group </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/leaderboard">
                         <IoIcons.IoIosPodium/>
-                        Leaderboard
+                        <span> Leaderboard </span>
                     </Link>
                 </li>
                 <li className="sidebar-nav-text">
                     <Link to="/forum">
                         <MdIcons.MdForum/>
-                        Forums
+                        <span> Forums </span>
                     </Link>
                 </li>
             </ul>

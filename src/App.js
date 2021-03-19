@@ -17,28 +17,28 @@ function App() {
           
           <Route path="/game">
             <Header/>
-            <Sidebar />
+            
           </Route>
           <Route path="/chat">
             <Header />
-            <Sidebar />
+            
             <Chat />
           </Route>
           <Route path="/tournament">
             <Header />
-            <Sidebar />
+           
           </Route>
           <Route path="/group">
             <Header />
-            <Sidebar />
+            
           </Route>
           <Route path="/leaderboard">
             <Header />
-            <Sidebar />
+            
           </Route>
           <Route path="/forum">
             <Header />
-            <Sidebar />
+            
           </Route>
           <Route path="/register">
             <Login />
@@ -52,7 +52,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
-            <Sidebar />
+           
           </Route>
         </Switch>
 
